@@ -1,0 +1,57 @@
+/* footer-section */
+.footer{ width:100%; background:#000000; float:left; position:relative; padding: 80px 0px 80px 0px;}
+.footer .footer-links{ position:relative; margin-bottom:10px;}
+.footer .footer-links .footer-title{ margin-bottom:20px; width:100%; float:left;}
+.footer .footer-links .footer-title h5{ font-size:18px; font-weight:600; color:#FFFFFF; text-transform:capitalize;border-bottom: 1px solid #ffffff;max-width: 200px;padding-bottom: 10px;}
+.footer .footer-links ul{ margin:0; padding:0;}
+.footer .footer-links ul li{ list-style-type:none; font-size:15px; color:#555555; display:block; text-align:left; margin-bottom:15px;}
+.footer .footer-links ul li a{color:#ffffff; transition:all .5s ease}
+.footer .footer-links ul li a:hover{ color:#eb3237; padding-left:10px;}
+.footer .footer-links-1{ position:relative; margin-bottom:10px;float: left;}
+.footer .footer-links-1 h5{font-size: 25px;font-weight: 600;text-align: center;line-height: 35px;color: #ffffff;margin-bottom: 10px;}
+.footer .footer-links-1 .footer-title{ margin-bottom:20px; width:100%; float:left;}
+.footer .footer-links-1 .footer-title h5{ font-size:18px; font-weight:600; color:#ffffff; text-transform:uppercase;border-bottom: 1px solid #ffffff;max-width: 160px;padding-bottom: 10px;}
+.footer .footer-links-1 ul{ margin:0; padding:0;}
+.footer .footer-links-1 ul li{ list-style-type:none; font-size:16px; color:#555555; display:inline-block; text-align:left; margin-bottom:15px; width:100%; float:left;font-weight: 400;text-transform: capitalize;}
+.footer .footer-links-1 ul li a{color:#ffffff; transition:all .5s ease}
+.footer .footer-links-1 ul li a:hover{ color:#75D9BD; padding-left:10px;}
+.footer .footer-links-1 img{width: 160px;margin-bottom: 10px;}
+.footer .footer-address{ position:relative; margin-bottom:10px;float: left;margin-top: 20px;}
+.footer .footer-address .address-title{ margin-bottom:20px; width:100%; float:left;}
+.footer .footer-address .address-title h5{ font-size:18px; font-weight:600; color:#FFFFFF; text-transform:capitalize;border-bottom: 1px solid #ffffff;max-width: 200px;padding-bottom: 10px;}
+.footer .footer-address h6{ font-size:15px; color:#ffffff; margin-bottom:10px; font-weight:600;}
+.footer .footer-address h5{ font-size:20px; color:#ffffff; font-weight:500;text-align: center;margin-bottom: 20px;}
+.footer .footer-address h6 i.fa{ font-size:15px; color:#FFFFFF; margin-right:10px;}
+.footer .footer-address p{ font-size:14px; line-height:26px; color:#ffffff; margin-bottom:15px;}
+.footer .footer-address p a{color:#FFFFFF;}
+.footer .footer-address p a:hover{color:#eb3237;}
+.footer .footer-address .socialfoot {text-align:center;position:relative; padding:5px 0px;float: left;}
+.footer .footer-address .socialfoot ul {list-style:outside none none; margin:0; padding:0;}
+.footer .footer-address .socialfoot ul li {display:inline-block; margin:0 12px 0 5px; color: #ffffff;font-size: 20px;}
+.footer .footer-address .socialfoot ul li:last-child{margin-right: 0px;}
+.footer .footer-address .socialfoot ul li a {background-image:none; text-decoration:none;}
+.footer .footer-address .socialfoot ul li .fb{color:#ffffff; display:block; font-size:25px; text-decoration:none; transition:all 0.3s ease 0s;}
+/* .footer .footer-address .socialfoot ul li .fb:hover {background-color:#3b5998; color:#FFFFFF; border:1px solid #3b5998;} */
+.footer .footer-address .socialfoot ul li .yt{color:#FFFFFF;display:block; font-size:20px; height:40px; line-height:40px; text-align:center; text-decoration:none; transition:all 0.3s ease 0s; width:40px; background:transparent;}
+.footer .footer-address .socialfoot ul li .yt:hover {background-color:#00acee ; color:#FFFFFF; border:1px solid #00acee ;}
+.footer .footer-address .socialfoot ul li .linked{border:1px solid #FFFFFF;color:#FFFFFF; display:block; font-size:20px; height:40px; line-height:40px; text-align:center; text-decoration:none; transition:all 0.3s ease 0s; width:40px; background:transparent;}
+.footer .footer-address .socialfoot ul li .linked:hover{background-color:#007bb6; color:#FFFFFF; border:1px solid #007bb6;}
+.footer .footer-address .socialfoot ul li .insta{border:1px solid #FFFFFF;color:#FFFFFF; display:block; font-size:20px; height:40px; line-height:40px; text-align:center; text-decoration:none; transition:all 0.3s ease 0s; width:40px; background:transparent;}
+.footer .footer-address .socialfoot ul li .insta:hover{ background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); color:#FFFFFF; border:1px solid #007bb6;}
+.footer .footer-address .whatsApp{width:100%;background: #ffffff;box-shadow: 0px 12px 12px rgba(50, 50, 71, 0.08), 0px 16px 24px rgba(50, 50, 71, 0.08);
+  border-radius: 36.5px;text-align: center;color: #000000;font-size: 16px;font-weight: 600;line-height: 29px;float: left;padding: 12px 10px;;text-transform: uppercase;margin-bottom: 25px;}
+  .footer .footer-address .whatsApp img{width: 20px;margin-right: 5px;}
+.footer  p{font-size: 17px;font-weight: 500;text-align: left;color: #ffffff;line-height: 26px;margin-bottom: 10px;}
+ .copy-right-content{width:100%; background:#335D7E; float:left; position:relative;  padding:30px 0px 20px 0px;border-top: 0.5px solid #B6BABF;width: 100%;}
+ .copy-right-content .left-copy{margin-bottom: 9px;width: 100%;}
+.copy-right-content .left-copy p{font-size: 16px;font-weight: normal;text-align: center;line-height: 27px;color: #ffffff;text-transform: capitalize;}
+
+.first-footer .logo-section{width: 100%;margin-bottom: 30px;}
+.first-footer .logo-section img{width: 300px;}
+.first-footer h5{font-size: 25px;font-weight: 600;text-align: center;line-height: 35px;color: #ffffff;}
+
+
+ @media screen and (max-width: 61.938em) {
+    /* .footer .footer-links-1 ul li{ list-style-type:none; font-size:15px; color:#555555; display:inline-block; text-align:center; margin-bottom:15px; width:100%; float:none;} */
+    .first-footer {width: 100%;margin-bottom: 20px;}
+  }

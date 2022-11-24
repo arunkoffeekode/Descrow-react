@@ -1,0 +1,62 @@
+.product-description-review-section{ width:100%; float:left; padding:0px 0px 30px 0px; background:#FFFFFF; position:relative;}
+.escros .nav-pills .nav-link, .escros .nav-tabs .nav-link{ border-radius: 0px; text-transform:capitalize;padding: 10px 20px
+; margin-right:10px; color:#000000; font-weight:600; font-size:15px;}
+.escros .nav-pills .nav-link.active, .nav-pills .show>.nav-link { color: #000000; background-color: transparent;border: none;}
+.escros .nav-tabs { border-bottom: 1px solid #000000;}
+.escros .tab-pane{ position:relative; padding:10px 0px;}
+
+.escros{width: 100%;position: relative;float: left;padding: 30px 0px 30px 0px;background: #ffffff;}
+.escros .escros-table-box{border: 1px solid #000000;width: 100%;position: relative;float: left;margin-bottom: 20px;}
+.escros .escros-table-box .table-title{background: #000000;padding: 10px 15px 10px 15px;width: 100%;float: left;}
+.escros .escros-table-box .table-title .left-title{float: left;}
+.escros .escros-table-box .table-title .left-title h3{color: #7F7F7F;font-size: 15px;font-weight: 600;line-height: 25px;}
+.escros .escros-table-box .table-title .left-title h3 span{color: #ffffff;}
+
+.escros .escros-table-box .table-title .right-title{float: right;display: flex;align-items: center;}
+.escros .escros-table-box .table-title .right-title label{border: 1px solid #85FFB6;padding: 5px 20px;font-size: 15px;font-weight: 600;color:#85FFB6;margin-bottom: 0px;margin-right: 10px;}
+.escros .escros-table-box .table-title .right-title label i{margin-right: 8px;}
+.escros .escros-table-box .table-title .right-title h6{font-size: 15px;font-weight: 600;color: #ffffffff;}
+
+.escros .escros-table-box .date{width: 100%;position: relative;float: left;margin-bottom: 10px;}
+.escros .escros-table-box .date .left-date{float: left;}
+.escros .escros-table-box .date .left-date span{color: #7F7F7F;font-size: 15px;font-weight: 400;line-height: 25px;}
+.escros .escros-details{width: 100%;padding: 20px;position: relative;float: left;}
+.escros .escros-table-box .date .left-date span i{margin-right: 7px;}
+.escros .escros-table-box .date .right-day{float: right;}
+.escros .escros-table-box .date .right-day span{color: #7F7F7F;font-size: 15px;font-weight: 400;line-height: 25px;}
+.escros .escros-details p{font-size: 16px;font-weight: 400;text-align: left;color:#000000;line-height: 26px;margin-bottom: 10px;float: left;width: 100%;}
+.escros .escros-details .from{color: #7F7F7F;font-size: 15px;font-weight: 400;line-height: 25px;margin-bottom: 10px;hyphens: auto;word-wrap: break-word;float: left;width: 100%;}
+.escros .escros-details .from span{margin-left: 10px;}
+.escros .escros-details .from i{margin-right: 5px;}
+
+.escros .escros-details .fees{width: 100%;position: relative;float: left;border-bottom: 1px solid #000000;padding-bottom: 10px;font-size: 16px;font-weight: 400;text-align: left;margin-bottom: 15px;}
+
+.escros .escros-details .attechement{width: 100%;position: relative;float: left;}
+.escros .escros-details .attechement h6{font-size: 15px;font-weight: 600;line-height: 25px;color: #000000;margin-bottom: 10px;}
+.escros .escros-details .attechement .vote{font-size: 15px;font-weight: 500;text-align: left;margin-bottom: 5px;line-height: 25px;}
+.escros .escros-details .attechement .vote-details{color: #7F7F7F;font-size: 15px;font-weight: normal;text-align: left;float: left;}
+.escros .escros-details .form-control {height: 50px;padding: 0.675rem .75rem; border-radius: 0px; margin-bottom: 10px;background:#D9D9D9; color:#000000; font-size:16px; border: 1px solid #D9D9D9;border-radius: 0px;margin-bottom: 15px;}
+.escros .escros-details .form-control:focus{outline: none;box-shadow: none;}
+
+#pagination{margin-top: 20px;}
+.pagination-list{position: relative;float: left;width:100%;text-align: center;}
+.pagination-list a{color:#000000;font-size:15px;font-weight: 500;}
+.pagination-list a:hover{color:#FFFFFF; background:#000000;}
+.pagination-list .current{color:#FFFFFF; background:#000000;}
+.page-link{color: #000000;font-size: 12px;font-weight: 500;margin-right: 5px;padding: .5rem 0.75rem;border: 1px solid#7F7F7F;}
+
+.escros .escrow-title{font-size: 25px;font-weight: 600;text-align: left;line-height: 35px;color: #000000;margin-bottom: 20px;}
+
+.escros .escrow-model-btn{transition: 0.5s linear;border: 1px solid #000000;background: #000000;font-size: 18px;font-weight: 500;text-align: center;padding: 10px 20px;border-radius: 0px;float: right;color: #ffffff;text-transform: capitalize;outline: none;margin-bottom: 15px;}
+.escros .escrow-model-btn:hover{background-color: transparent;border: 1px solid #000000;color: #000000;}
+
+
+/* responsive */
+@media screen and (max-width: 61.938em){
+   
+}
+@media  (max-width: 480px) {
+    .escros .escros-table-box .table-title .left-title{margin-bottom: 12px;}
+    .escros .escros-table-box .table-title .right-title{width: 100%;}
+    .escros .escrow-model-btn {float: left;}
+}

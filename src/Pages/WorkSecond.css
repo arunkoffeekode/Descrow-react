@@ -1,0 +1,22 @@
+.worksecond{width: 100%;position: relative;float: left;padding: 30px 0px 120px 0px;background: #ffffff;}
+.worksecond .box-r-g {border: 1px solid #000000;padding: 25px 37px 25px 55px;min-height: 288px;}
+.worksecond .box-r-g img{margin-bottom: 20px;height: 80px;}
+.worksecond .box-r-g h3{font-size: 22px;font-weight: 600;text-align: left;color: #000000;margin-bottom: 15px;line-height: 30px;}
+.worksecond .box-r-g p{font: 16px;font-weight: 400;text-align: left;line-height: 26px;color: #000000;}
+
+
+.main-title{width: 100%;position: relative;float: left;margin-bottom: 80px;}
+.main-title h1{font-size: 36px;font-weight: 600;text-align: center;line-height: 46px;color: #000000;}
+
+.worksecond::before{content: ""; position: absolute;top: 17px;left: -123px;width:722px;height: 100%;background: url(../img/work.png)no-repeat center left / cover;opacity: .7;}
+
+@media screen and (max-width: 61.938em){
+.col-xs-3 {width: 50%;float: left;}
+.main-title h1 {font-size: 28px;line-height: 38px;}
+.worksecond::before{display: none;}
+.main-title {margin-bottom: 30px;}
+.worksecond{padding: 30px 0px 30px 0px;}
+}
+@media  (max-width: 480px) {
+    .col-xs-3 {width: 100%;float: left;margin: 20px;}
+}

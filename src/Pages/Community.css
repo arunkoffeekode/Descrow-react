@@ -1,0 +1,18 @@
+.community{width: 100%;position: relative;float: left;padding: 30px 0px 70px 0px;background: #ffffff;}
+.community .community-r-g {border: 1px solid #000000;padding: 25px 37px 25px 55px;min-height:418px;}
+.community .community-r-g h3{font-size: 20px;font-weight: 600;text-align: left;color: #000000;margin-bottom: 15px;}
+.community .community-r-g p{font-size: 16px;font-weight: 400;line-height: 26px;color: #000000;}
+.community .community-r-g .community-icon{margin-top: 40px;}
+.community .community-r-g .community-icon img{width: 170px;}
+.community::before{content: ""; position: absolute;top: 66px;right: 130px;width:517px;height: 100%;background: url(../img/community-bg.png)no-repeat center right / cover;opacity: .8;}
+.img-lft{margin-left:60px;}
+
+@media screen and (max-width: 61.938em){
+    .col-xs-6{width: 50%;float: left;}
+    .community::before{display: none;}
+    .img-lft {margin-left: 0px;}
+    .community{padding: 30px 0px 30px 0px;}
+}
+@media  (max-width: 480px) {
+    .col-xs-6{width: 100%;float: left;margin: 20px;}
+}

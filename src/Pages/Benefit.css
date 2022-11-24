@@ -1,0 +1,20 @@
+.benefit{width: 100%;position: relative;background: #ffffff;float: left;padding: 30px 0px 30px 0px;}
+.benefit .benefit-left{width: 100%;position: relative;float: left;margin-bottom: 30px;}
+.benefit .benefit-left h1{font-size: 41px;font-weight: 600;text-align: left;line-height: 53px;color: #000000;}
+.benefit .benefit-left h1 span{ background: linear-gradient(to right, #A2FD37 0%, #16B1B9 100%); -webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+.benefit .benefit-right{position: relative;float: left;width: 100%;}
+.benefit .benefit-right .benefit-box{position: relative;float: left;margin-bottom: 40px;}
+.benefit .benefit-right .benefit-box .benefit-title{font-size: 44px;font-weight: 600;text-align: left;line-height: 60px;color: #000000;padding-bottom: 10px;border-bottom: 1px solid#000000;margin-bottom: 20px;}
+.benefit .benefit-right .benefit-box p{color: #7F7F7F;font-size: 20px;font-weight: 400;text-align: left;line-height: 30px;}
+.benefit .benefit-main{float: right;max-width:330px;}
+
+@media screen and (max-width: 61.938em) {
+    .benefit .benefit-left h1{font-size: 25px;line-height: 35px;}
+    .benefit .benefit-right .benefit-box .benefit-title{font-size: 27px;line-height: 37px;}
+    .benefit .benefit-right .benefit-box{margin-bottom: 18px;}
+    
+}
+@media  (max-width: 480px) {
+    
+    .benefit .benefit-main{max-width: 100%;float: left;}
+}

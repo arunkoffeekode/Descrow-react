@@ -1,0 +1,32 @@
+.modal-title{font-size: 20px;font-weight: 500;text-align: left;color: #ffffff;text-transform: capitalize;}
+.modal-body1 .form-group { padding-left: 15px!important; padding-right: 15px!important; box-shadow:none;margin-bottom: 20px; }
+.modal-body1 label { font-size: 18px; color: #000000; font-weight: 600; text-transform: capitalize; }
+.modal-body1 label span { color: #ff0000 }
+.modal-body1 label p { margin: 0px; font-size: 12px; font-weight: normal; color: #000000; display: inline; width: auto; text-transform: capitalize; }
+.modal-body1 .form-control { padding: 0.675rem .75rem; border-radius: 0px; margin-bottom: 10px; background-color:transparent; color:#ffffff; font-size:16px; border: 1px solid #000000;}
+.modal-body1 input, .modal-body1 select { height: 47px!important; box-shadow:none;}
+.modal-body1 .input-group-addon:last-child { border-left: 0; }
+form .modal-body1:focus{border-color: #FB8C00!important;box-shadow: none;}
+.input-group-text{height: 47px;background-color: #000000;border: 1px solid #000000;color: #ffffff;font-size: 17px;font-weight: 600;}
+.modal-body1{padding: 20px;width: 100%;}
+.modal-header1{background-color: #000000;border-bottom: 1px solid #000000;padding: 20px;}
+.modal-content{background-color: transparent;}
+.modal-body1{background-color: #ffffff;border: 1px solid#000000;border-bottom: none;}
+.modal-body1 .form-group p{font-size: 14px;font-weight: normal;text-align: left;color: #ffffff;line-height: 26px;text-transform: capitalize;}
+.custom-file-label{background-color: transparent;border: 1px solid #000000;}
+.custom-file-label::after{    background-color: #000000;color: #ffffff;font-size: 18px;font-weight: 500;}
+.custom-file-input:lang(en)~.custom-file-label::after{    content: "\f0f6";font-family: FontAwesome;font-size: 19px;}
+
+.modal-footer{border: 1px solid#000000;border-top: none;border-bottom-right-radius: 0px;border-bottom-left-radius:0px;background-color: #ffffff;justify-content: center;padding-top: 0px;}
+.btn-clg{transition: 0.5s linear;background: #000000;border-radius: 0px;text-align: center;padding: 10px 40px;font-size: 18px;font-weight: 400;color: #ffffff;border: 1px solid #000000;outline: none!important;width: 100%;}
+.btn-clg:hover{background-color: transparent;border: 1px solid #000000;color: #000000;}
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {cursor: pointer;border-radius: 4px; margin-right: 2px;filter: invert(0.8);}
+
+.modal-footer>:not(:last-child) {
+    margin-right: 1.25rem;
+}
+
+/* @media (min-width: 576px){
+.modal-dialog { max-width:900px;margin: 1.75rem auto;}} */

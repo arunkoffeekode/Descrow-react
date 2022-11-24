@@ -1,0 +1,17 @@
+.paymentsystem{width: 100%;position: relative;float: left;background: #ffffff;padding: 30px 0px 30px 0px;}
+.paymentsystem .paymentsystem-details{width: 100%;position: relative;float: left;margin-bottom: 20px;min-height: 585px;}
+.paymentsystem .paymentsystem-details h1{font-size: 45px;font-weight: 600;text-align: left;line-height: 55px;color: #000000;}
+
+.paymentsystem::before{content: ""; position: absolute;top: -66px;left: 17px;width:717px;height: 100%;background: url(../img/home-bg.png)no-repeat center left / cover;opacity: 1.0;}
+.paymentsystem span{ background: linear-gradient(to right, #A2FD37 0%, #16B1B9 100%); -webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+
+
+
+@media screen and (max-width: 61.938em) {
+    
+}
+@media  (max-width: 480px) {
+    .paymentsystem .paymentsystem-details h1{font-size: 30px;line-height: 40px;}
+    .paymentsystem .paymentsystem-details{min-height: 0px;}
+    .paymentsystem::before{display: none}
+}
